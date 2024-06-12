@@ -1,0 +1,333 @@
+.signup_page{
+    background-image: url("./Rectangle 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    display: flex;
+}
+.signup_page .first_half{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 40%;
+    padding-left: 70px;
+    position: relative;
+}
+.immmg{
+    position: absolute;
+    top: 350px;
+    right: -119px;
+}
+.signup_page .first_half .logo h3{
+    color: #195696;
+    font-size: 24px;
+    font-weight: 900;
+}
+.signup_page .first_half .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.signup_page .first_half .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.signup_page .first_half .infos h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #195696;
+}
+.signup_page .first_half .infos ul{
+    font-size: 14px;
+    font-weight: 400;
+    color: #195696;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+
+
+.signup_page .second_half{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: white;
+    width: 65%;
+    border-radius: 50px 0px 0px 50px;
+}
+.signup_page .second_half .login_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+    height: 70px;
+}
+.signup_page .second_half .login_navbar a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500
+}
+.signup_page .second_half .login_navbar .sign_up{
+    background-color: #195696;
+    padding: 8px 19px;
+    color: white;
+    border-radius: 11px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.signup_page .second_half .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.signup_page .second_half .form h1{
+    color: #195696;
+    font-size: 40px;
+    font-weight: 900
+}
+.signup_page .second_half .form .api_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 39px;
+}
+.signup_page .second_half .form .api_login button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #195696;
+    border-radius: 14px;
+    border: none;
+    height: 40px;
+}
+
+.signup_page .second_half .form .line_or_line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 7px;
+}
+.signup_page .second_half .form .line_or_line .line{
+    background-color: black;
+    height: 2px;
+    width: 147px;
+}
+.signup_page .second_half .form form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #195696;
+
+}
+.signup_page .second_half .form form .name_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.signup_page .second_half .form form .name_inputs .inps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.signup_page .second_half .form form .name_inputs input{
+    padding: 9px 15px;
+    background: #195696;
+    border-radius: 12px;
+    border: none;
+    max-width: 231px;
+    height: 39px;
+    color: white;
+}
+.signup_page .second_half .form form .name_inputs input::placeholder{
+    color: white;
+}
+.signup_page .second_half .form form .email_input input{
+    height: 39px;
+    background: #195696;
+    border-radius: 12px;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 0 15px;
+}
+.signup_page .second_half .form form .password_input input{
+    height: 39px;
+    background: #195696;
+    border-radius: 12px;
+    border: none;
+    width: 100%;
+    padding: 0 15px;
+    color: white;
+}
+.signup_page .second_half .form form .conditional_clicks {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 12px;
+    margin-top: -9px;
+}
+.signup_page .second_half .form form .conditional_clicks .remember_me{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.signup_page .second_half .form form .conditional_clicks .remember_me p{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+.signup_page .second_half .form form .conditional_clicks .remember_me input{
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #195696;
+        border-radius: 50%; 
+        outline: none;
+        cursor: pointer;
+}
+.signup_page .second_half .form form .conditional_clicks .remember_me  input[type="checkbox"]:checked{
+    background-color: #195696;
+    outline: 2px solid #195696;
+    border: 2px solid white;
+}
+
+.signup_page .second_half .form form .conditional_clicks .forgot_pass{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+    text-decoration: underline;
+}
+.signup_page .second_half .form form .login_button input{
+    background-color: #195696;
+    color: white;
+    padding: 10px 38px;
+    border-radius: 14px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 17px;
+}
+.signup_page .second_half .form form .dont_have_acc{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+.signup_page .second_half .form form .dont_have_acc a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    color: #195696;
+    text-decoration: underline;
+}
+.signup_page input:focus{
+    border: none;
+    outline: none;
+}
+.asterisk{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 7px;
+    margin-bottom: 14px;
+}
+
+@media (max-width:1382px) {
+    .signup_page .first_half {
+        padding-left: 44px;
+    }
+}
+
+@media (max-width:1118px) {
+    .signup_page .second_half .login_navbar {
+        gap: 44px;
+    }
+    .signup_page .first_half {
+        padding-left: 20px;
+    }
+}
+@media (max-width:1034px) {
+    .signup_page .second_half .login_navbar {
+        gap: 34px;
+    }
+}
+@media (max-width:980px) {
+    .signup_page{
+        flex-direction: column;
+    }
+    .signup_page .second_half{
+        width: auto;
+        border-radius: 0;
+    }
+    .signup_page .second_half .login_navbar {
+        gap: 44px;
+        flex-wrap: wrap;
+    }
+    .signup_page .first_half{
+            width: auto;
+            margin: auto;
+            /* align-items: center; */
+            /* justify-content: center; */
+            padding: 34px 0;
+    }
+    .signup_page .second_half .form{
+        margin-bottom: 50px;
+    }
+    .immmg{
+        display: none;
+    }
+}
+@media (max-width:637px) {
+    .signup_page .login_navbar{
+        padding-top: 25px;
+    }
+}
+@media (max-width:539px) {
+    .signup_page .second_half .form form {
+        padding: 0 25px;
+    }
+    .signup_page .second_half .form h1 {
+        text-align: center;
+    }
+    .signup_page .second_half .form .api_login{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .signup_page .second_half .form form .conditional_clicks .remember_me input {
+        width: 16px;
+        height: 16px;
+    }
+    .signup_page .second_half .form form .conditional_clicks .forgot_pass {
+        font-size: 13px;
+    }
+    .signup_page .second_half .form form .conditional_clicks .remember_me p {
+        font-size: 14px;
+    }
+    .signup_page .second_half .form form .name_inputs .inps {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+@media (max-width:1282px) {
+    .immmg{
+        top: 135%;
+        left: 0;
+    }
+}

@@ -1,0 +1,178 @@
+.settings .settings_header{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    margin: 9px 0;
+}
+.settings .linee{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    background-color: #195696;
+}
+.settings .settings_header div{
+    height: 30px;
+    background: #195696;
+    border-radius: 14px;
+    padding: 10px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.settings .profile_setting .image_settings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 13px;
+    margin-top: -53px;
+}
+.settings .profile_setting .image_sec{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.settings .profile_setting h2{
+    font-size: 18px;
+    color: #7A7A7A;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.settings .profile_setting img{
+    width: 72px;
+    height: 72px;
+}
+.settings .profile_setting .image_settings .image_sec .upload_new{
+    height: 27px;
+    background: #195696;
+    border-radius: 14px;
+    border: none;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: white;
+    padding: 5px 13px;
+}
+.settings .profile_setting .image_settings .image_sec .remove_pic{
+    height: 27px;    
+    background: #676767;
+    border-radius: 14px;
+    border: none;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: white;
+    padding: 5px 13px;
+}
+.settings .line{
+    margin-inline: auto;
+    margin-top: 51px;
+    background-color: #195696;
+    width: 100%;
+    height: 1px;
+}
+
+.settings .user_inps{
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+.settings .user_inps .full_name{
+    display: flex;
+    gap: 133px;
+}
+.settings .user_inps .full_name .first_name{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.settings .user_inps .full_name .first_name p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #7A7A7A;
+}
+.settings .user_inps .full_name .first_name input{
+    width: 441px;
+    height: 44px;
+    padding: 11px 18px;
+    background: #FFFFFF;
+    border: 0.3px solid #195696;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.settings .user_inps .confirm_changes{
+    margin-top: 34px;
+    display: flex;
+    gap: 13px;
+}
+.settings .user_inps .confirm_changes button:first-child{
+    background: #FFFFFF;
+    border: 1px solid #195696;
+    border-radius: 14px;
+    padding: 8px 24px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+.settings .user_inps .confirm_changes button:last-child{
+    background: #195696;
+    border-radius: 14px;
+    padding: 8px 24px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+.settings .security_settings{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.settings .security_settings .password p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #7A7A7A;
+    text-transform: capitalize;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+}
+.settings .security_settings .password input{
+    width: 441px;
+    height: 44px;
+    padding: 11px 18px;
+    background: #FFFFFF;
+    border: 0.3px solid #195696;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    font-size: 18px;
+}
+.settings .security_settings .buttons {
+    display: flex;
+    gap: 13px;
+}
+.settings .security_settings button:first-child{
+    background: #FFFFFF;
+    border: 1px solid #195696;
+    border-radius: 14px;
+    padding: 8px 24px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+.settings .security_settings button:last-child{
+    background: #195696;
+    border-radius: 14px;
+    padding: 8px 24px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}

@@ -1,0 +1,97 @@
+.admin_dashboard {
+    background-color: #F3F5F9;
+    padding: 0 5px;
+    background-color: #F3F5F9;
+    width: 100%;
+    position: absolute;
+    padding-left: 250px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 100px;
+    height: 100%;
+    overflow-y: scroll;
+}
+.doctor_dash_interface{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.admin_dashboard .dashboard_navbar{
+    padding-top: 50px;
+    width: 203px;;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    box-shadow: 0px 4px 23.7px rgba(0, 0, 0, 0.25);
+    top: 0;
+}
+.dashboard_navbar .dashboard_navbar_logo{
+    display: flex;
+    align-items: center;
+}
+.dashboard_navbar .dashboard_navbar_logo h2{
+    font-size: 16px;
+    font-weight: 900;
+    color: #195696;
+}
+.dashboard_navbar .dashboard_navbar_links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.dashboard_navbar .dashboard_navbar_links li {
+    list-style: none;
+    background-color: #195696;
+    padding: 0 36px;
+    height: 54px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 14px;
+}
+.dashboard_navbar .dashboard_navbar_links li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+.admin_dashboard .header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.admin_dashboard .header .logo{
+    display: flex;
+    gap: 12px;
+}
+.admin_dashboard .header .logo h2{
+    color: #195696;
+    font-size: 24px;
+    font-weight: 600;
+}
+.admin_dashboard .header .notification{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+.admin_dashboard .header .notification input{ 
+    width: 210px;
+    height: 36px;
+    border-radius: 14px;
+    padding: 6px 23px;
+    border: 1px solid #C8C8C8;
+    background-color: transparent;
+}
+.admin_dashboard .header .notification input::placeholder{ 
+    font-size: 15px;
+    font-weight: 900;
+}

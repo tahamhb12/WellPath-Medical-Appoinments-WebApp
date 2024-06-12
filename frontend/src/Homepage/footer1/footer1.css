@@ -1,0 +1,56 @@
+.footer1 {
+    margin-top: 96px;
+    background-color: rgba(235, 219, 78, 0.27); 
+    width: 100%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 102px;
+    flex-wrap: wrap;
+}
+.footer1 .book,
+.footer1 .write_to_us,
+.footer1 .clinic_hours{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-size: 15px;
+    color: #0C2D66;
+}
+
+.footer1 .book p,
+.footer1 .write_to_us p,
+.footer1 .clinic_hours p{
+    margin-bottom: 8px;
+}
+@media (max-width:719px) {
+    .footer1{
+    margin-top: 96px;
+    background-color: rgba(235, 219, 78, 0.27); 
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+    }
+}
+@media (max-width:478px) {
+    .footer1{
+    margin-top: 96px;
+    background-color: rgba(235, 219, 78, 0.27); 
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+    display: block;
+    padding-left: 50px;
+    }
+}

@@ -1,0 +1,194 @@
+.section1{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+.section1 .infos h1{
+    font-size: 64px;
+    color: #195696;
+    font-weight: bold;
+}
+.section1 .buttons{
+    display: flex;
+    gap: 31px;
+}
+.section1 .buttons .book,.section1 .buttons .login{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.section1 .img {
+    position: relative;
+}
+.section1 .img .doconline span{
+    font-weight: 900;
+    font-size: 24px;
+}
+.section1 .img .doconline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #195696;
+    font-size: 20px;
+    background-color: white;
+    width: 215px;
+    height: 53px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section1 .img .doconline{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.section1 .img .rating{
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+}
+.section1 .img .rating{
+    width: 187px;
+    height: 155px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 7px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section1 .img .rating .userinfos{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.section1 .rating .user .userinfos p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #195696;
+}
+.section1 .rating .user .userinfos img{
+    border-radius: 50%;
+    margin: 0;
+    width: 25px;
+    height: 25px;
+}
+.section1 .img .rating .user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section1 .rating .comment{
+    font-weight: 200;
+    font-size: 16px;
+    overflow-wrap: break-word;
+}
+.section1 .img .patients{
+    position: absolute;
+    top:90px;
+    left: 0;
+}
+.section1 .patients{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 201px;
+    height: 65px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section1 .patients .pics img{
+    border-radius: 50%;
+    margin: 0;
+    width: 25px;
+    height: 25px;
+}
+.section1 .patients .patients_number p{
+    color: #195696;
+}
+.section1 .patients .patients_number p:first-child{
+    font-size: 15px;
+    font-weight: 800;
+}
+/* .immg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    border-radius: 37px;
+}
+ */
+@media (max-width:1204px) {
+    .section1 .infos {
+        width: 37%;
+    }
+    .section1 .infos h1{
+        font-size: 50px;
+        color: #195696;
+        font-weight: bold;
+    }
+    .section1 .img img{
+        width: 700px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:1235px) {
+    .section1 .img img{
+        width: 500px;
+    }
+}
+@media (max-width:1008px) {
+    .section1 .infos{
+        width: 100%;
+    }
+    .section1 .img{
+        width: fit-content;
+        margin: auto;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+        text-align: center;
+    }
+    .section1 .infos h1{
+        font-size: 64px;
+    }
+    .section1 .infos ,.buttons{
+        margin: auto;
+    }
+}
+@media (max-width:734px) {
+    .section1 .img img{
+        width: 500px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:518px) {
+    .section1 .img img{
+        width: 350px;
+    }
+    .section1 .infos h1{
+        font-size: 50px;
+    }
+    .section1 .img .doconline{
+        top: 30px;
+        right: 0;
+    }
+    .section1 .img .rating{
+        bottom: -50px;
+    }
+    .section1 .img .patients{
+        top:140px;
+        left: -30px;
+    }
+}

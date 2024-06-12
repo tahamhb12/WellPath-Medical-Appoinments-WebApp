@@ -1,0 +1,610 @@
+/* .patient_bookings{
+    display: flex;
+    gap: 15px;
+} */
+.patient_appointments_header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 9px 0;
+}
+.patient_appointments .linee{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    background-color: #195696;
+}
+.patient_appointments_header .appointments_counter h3{
+    color: #195696;
+    font-size: 24px;
+    font-weight: 700;
+}
+.patient_appointments_header .appointments_counter span{
+    color: #C8C8C8;
+    font-size: 12px ;
+    font-weight: 700;
+}
+.patient_appointments_header .line{
+    background-color: #195696;
+    width: 1px;
+    height: 40px;
+}
+.patient_appointments_header .sort_by{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    position: relative;
+}
+.patient_appointments_header .sort_by p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #C8C8C8;
+}
+.patient_appointments_header .sort_by select{
+    width: 115px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 0.3px solid #C8C8C8;
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    appearance: none;
+    padding-left: 10px;
+}
+.patient_appointments_header .sort_by .arr{
+    position: absolute;
+    right: 15px;
+    color: #959595;
+}
+
+.patient_appointments .patient_requests_section{
+    margin-top: 50px;
+}
+.patient_appointments .patient_requests_section h2{
+    font-size: 24px;
+    color: #7A7A7A;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    width: 1118px;
+}
+.patient_appointments .patient_requests_section h2 button{
+    background-color: #676767;
+    width: 62px;
+    height: 26px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+.patient_appointments .patient_requests_section .column_names{
+    display: flex;
+    gap: 173px;
+    margin-top: 16px;
+    padding: 9px 41px 9px 31px;
+}
+.patient_appointments .patient_requests_section .column_names .inp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+.patient_appointments .patient_requests_section .column_names .inp img{
+    width: 37px;
+    height: 37px;
+}
+.patient_appointments .patient_requests_section .column_names .inp input{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #C8C8C8;
+    border-radius: 50%; 
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.patient_appointments .patient_requests_section .column_names .inp input:checked{
+    background-color: #195696;
+    outline: 2px solid #195696;
+    border: 2px solid white;
+}
+.patient_appointments .patient_requests_section .column_names .names{
+    display: flex;
+    gap: 66px;
+}
+.patient_appointments .patient_requests_section .column_names p, .names p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #C8C8C8;
+}
+.patient_appointments .patients_requests{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.patient_appointments .patients_requests .patient_requests{
+    display: flex;
+    align-items: center;
+    gap: 98px;
+    width: 1118px;
+    height: 55px;
+    padding: 9px 41px 9px 31px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+
+}
+.patient_appointments .patients_requests .patient_requests .inp{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+.patient_appointments .patient_requests .inp input{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #195696;
+    border-radius: 50%; 
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+.patient_appointments .patient_requests .inp input:checked{
+    background-color: #195696;
+    outline: 2px solid #195696;
+    border: 2px solid white;
+}
+.patient_appointments .patients_requests .patient_requests .inp .doc_infoss{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: 161.63px;
+}
+.patient_appointments .patients_requests .patient_requests .inp .doc_infoss .name p:first-child{
+    font-size: 12px;
+    color: #195696;
+    font-weight: 900;
+}
+.patient_appointments .patients_requests .patient_requests .inp .doc_infoss .name p:last-child{
+    font-size: 10px;
+    color: #195696;
+    font-weight: 500;
+}
+.patient_appointments .patients_requests .patient_requests .inp img{
+    width: 37px;
+    height: 37px;
+}
+.patient_appointments .patients_requests .patient_requests .namess{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+.patient_appointments .patients_requests .patient_requests .namess p{
+    font-size: 14px;
+    color: #195696;
+    font-weight: 900;
+}
+.patient_appointments .patient_appointments_header h2{
+    font-size: 25px;
+    font-weight: 300;
+    color: #195696;
+}
+.patient_appointments .patient_appointments_header i{
+    font-size: 20px;
+    color: #959595;
+}
+.patient_appointments .patient_appointments_header h3{
+    font-size: 25px;
+    color: #959595;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.patient_appointments .patient_appointments_doctor_infos{
+    margin-top: 50px;
+}
+.patient_appointments .patient_appointments_doctor_infos .doctor_infos{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.patient_appointments .patient_appointments_doctor_infos .doctor_infos .doc_message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    width: 325px;
+    height: 334px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 25px 61px;
+}
+.patient_appointments .patient_appointments_doctor_infos .doctor_infos .doc_message img{
+    width: 101px;
+    height: 101px;
+}
+.patient_appointments .patient_appointments_doctor_infos .doctor_infos .doc_message h2{
+    font-size: 25px;
+    font-weight: 300;
+    width: 315px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.patient_appointments .patient_appointments_doctor_infos .doctor_infos .doc_message h3{
+    font-size: 14px;
+    font-weight: 400;
+    width: 315px;
+    text-align: center;
+}
+.patient_appointments .patient_appointments_doctor_infos .doctor_infos .doc_message .past_upcoming_apps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+.patient_appointments .patient_appointments_doctor_infos .doctor_infos .doc_message .past_upcoming_apps .past ,.upcoming{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.patient_appointments .patient_appointments_doctor_infos .doctor_infos .doc_message .past_upcoming_apps .linethrough{
+    background-color: black;
+    width: 1.7px;
+    height: 100%;
+}
+.patient_appointments .patient_appointments_doctor_infos .doctor_infos .doc_message .past_upcoming_apps .past p:first-child,.upcoming p:first-child{
+    font-weight: 900;
+    font-size: 18px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements{
+    margin-top: 35px;
+    display: flex;
+    margin-bottom: 50px;
+    gap: 15px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph{
+    width: 806px;
+    height: 343px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 18px 21px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .up_past_apps_click{
+    background: #EEEEEE;
+    border-radius: 14px;
+    width: 373px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .up_past_apps_click button{
+    background: #195696;
+    border-radius: 14px;
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    border: none;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph{
+    background: #F3F5F9;
+    border-radius: 14px;
+    width: 755px;
+    height: 227px;
+    margin-top: 25px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph h2{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+    border-bottom: 0.1px solid #959595;
+    padding: 20px;
+}
+
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph .inside_graph{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    position: relative;
+    height: 74%;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph .inside_graph .upcoming_past_app{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: 626px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph .inside_graph .upcoming_past_app .upcoming_past_app_date{
+    font-size: 18px;
+    font-weight: 600;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph .inside_graph .upcoming_past_app .upcoming_past_app_traitment p:first-child{
+    color: #959595;
+    font-size: 12px;
+    font-weight: 500;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph .inside_graph .upcoming_past_app .upcoming_past_app_traitment p:last-child{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph .inside_graph .upcoming_past_app .upcoming_past_app_doctor p{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph .inside_graph .upcoming_past_app .upcoming_past_app_doctor_notes{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph .inside_graph .upcoming_past_app .upcoming_past_app_doctor_notes h2{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+    border-bottom:0;
+    padding: 0;
+    color: #337EFB;
+    font-weight: 600;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph .inside_graph .upcoming_past_app .line{
+    background-color:black ;
+    height: 65%;
+    width: 2px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph .inside_graph .shapes .colored_line{
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, #a1cfff 0%, #195696 100%);
+    padding: 25px 0;
+    position: absolute;
+    top: 0;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elements .up_past_graph .app_graph .inside_graph .shapes .colored_line::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #2CC589;
+    top: 45%;
+    left: -11px;
+}
+.patient_appointments .doctor_infos .notes{
+    display: flex;
+    flex-direction: column;
+    padding: 9px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: 315px;
+    height: 333px;
+    gap: 10px;
+}
+.patient_appointments .doctor_infos .notes h2{
+    font-size: 14px;
+    font-weight: 600;
+}
+.patient_appointments .doctor_infos .notes textarea{
+    background: #C9E3FF;
+    border: 1px solid #195696;
+    border-radius: 14px;
+    width: 283px;
+    height: 136px;
+    outline: none;
+    padding: 5px;
+}
+.patient_appointments .doctor_infos .notes .button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.patient_appointments .doctor_infos .notes .button button{
+    width: 83px;
+    height: 29px;
+    background: #195696;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.patient_appointments .doctor_infos .notes .mynotes{
+    width: 283px;
+    height: 42px;
+    background: #E6EDFF;
+    border-radius: 14px;
+    padding: 4px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+/*     margin-top: 17px;
+ */}
+.patient_appointments .doctor_infos .notes .mynotes .note_infos p:first-child,
+.patient_appointments .doctor_infos .notes .mynotes .date p:first-child{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.patient_appointments .doctor_infos .notes .mynotes .note_infos p:last-child{
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+
+
+
+
+
+
+  .doc_infos .first_infos img{
+    width: 123px;
+    height: 123px;
+}
+  .doc_infos .first_infos{
+    display: flex;
+    width: 288px;
+    height: 333px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px 35px;
+    gap: 14px;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background: #FFFFFF;
+}
+
+  .doc_infos .first_infos h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 400;
+    width: 267px;
+    text-align: center;
+}
+  .doc_infos .first_infos p{
+    font-size: 12px;
+    font-weight: 400;
+}
+  .doc_infos .first_infos .text{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    width: 235px;
+}
+  .doc_infos .second_infos {
+    padding: 36px 20px;
+    width: 466px;
+    height: 333px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+  .doc_infos .second_infos .first_t,
+  .doc_infos .second_infos .second_t
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+  .doc_infos .second_infos .third_t
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+  .doc_infos .second_infos .second_t,
+  .doc_infos .second_infos .third_t
+{
+    margin-top: 42px;
+}
+  .doc_infos .second_infos .first_t .gender,
+  .doc_infos .second_infos .first_t .birthday,
+  .doc_infos .second_infos .first_t .phone,
+
+  .doc_infos .second_infos .second_t .gender,
+  .doc_infos .second_infos .second_t .birthday,
+  .doc_infos .second_infos .second_t .phone,
+
+  .doc_infos .second_infos .third_t .gender,
+  .doc_infos .second_infos .third_t .birthday
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    border-bottom: 2px solid;
+    padding-bottom: 8px;
+    width: 150px;
+}
+
+  .doc_infos .second_infos .first_t .first,
+  .doc_infos .second_infos .second_t .first,
+  .doc_infos .second_infos .third_t .first
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #959595;
+}
+  .doc_infos .second_infos .first_t .second,
+  .doc_infos .second_infos .second_t .second,
+  .doc_infos .second_infos .third_t .second
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.doctors_sec .filtersec{
+    display: flex;
+    gap: 4px;
+    width: 449px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #F5F6F7;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin-bottom: 70px;
+}
+.doctors_sec p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 900;
+    color: #195696;
+    cursor: pointer;
+}
+.doctors_sec p:first-child{
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.doctors_sec p:last-child{
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.app_graph .notfoud{
+    width: 100%;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+}

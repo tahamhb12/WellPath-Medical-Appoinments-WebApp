@@ -1,0 +1,171 @@
+.section5{
+    padding-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.section5 .titles p{
+    margin-top: 96px;
+    color: #FF0000;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+.section5 .titles h2{
+    color: #195696;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+.section5 .cards{
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.section5 .cards .card1,
+.section5 .cards .card2,
+.section5 .cards .card3,
+.section5 .cards .card4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 187px;
+    height: 206px;
+    padding: 9px 8px;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.19);
+    border-radius: 17px;
+    background-color: #F9FAFB;
+}
+.section5 .cards .card1 p,
+.section5 .cards .card2 p,
+.section5 .cards .card3 p,
+.section5 .cards .card4 p{
+    font-weight: 200;
+    font-size: 15px;
+    color: #3F5A84;
+    text-align: center;
+    width: 171px;
+    height: 90px;
+}
+.section5 .cards .card1 h3,
+.section5 .cards .card2 h3,
+.section5 .cards .card3 h3,
+.section5 .cards .card4 h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0C2D66;
+    text-align: center;
+}
+.section5 .infos{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.section5 .img img{
+    width: 449px;
+}
+.section5 .img {
+    width: fit-content;
+    margin: auto;
+}
+.section5 .infos p:first-child {
+    font-size: 20px;
+    color: red;
+    font-weight: 500;
+}
+.section5 .infos h4 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #195696;
+}
+.section5 .infos .trust {
+    font-size: 16px;
+    font-weight: 200;
+    width: 508px;
+    color: #7A7A7A;
+}
+.section5 .infos .iconspara {
+    display: flex;
+    align-items: center;
+    color: #7A7A7A;
+    font-weight: 200;
+    font-size: 13px;
+}
+.section5 .infos .book{
+    background-color: #337efb;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 26px;
+    padding: 11px 21px;
+    border: none;
+    width: fit-content;
+}
+@media (max-width:1008px) {
+    .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+        text-align: center;
+    }
+    .section5 .infos h4{
+        font-size: 35px;
+    }
+    .section5 .infos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:631px) {
+    .section5 .img .ex{
+    top: 218px;
+    left: -2px;
+    }
+
+}
+@media (max-width:518px) {
+    .section5 .img img{
+        width: 350px;
+    }
+    .section5 .infos .trust {
+        width: fit-content;
+    }
+}
+@media (max-width:443px) {
+.section5 .cards .card1,
+.section5 .cards .card2,
+.section5 .cards .card3,
+.section5 .cards .card4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 149px;
+    height: 198px;
+    padding: 9px 8px;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.19);
+    border-radius: 17px;
+    background-color: #F9FAFB;
+}
+.section5 .cards .card1 p,
+.section5 .cards .card2 p,
+.section5 .cards .card3 p,
+.section5 .cards .card4 p{
+    font-weight: 200;
+    font-size: 13px;
+    color: #3F5A84;
+    text-align: center;
+    width: 140px;
+    height: 90px;
+}
+}

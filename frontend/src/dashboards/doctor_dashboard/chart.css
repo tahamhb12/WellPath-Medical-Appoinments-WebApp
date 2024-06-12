@@ -1,0 +1,194 @@
+.e-schedule{
+    margin-right: 50px;
+    border: none;
+}
+.e-schedule .e-schedule-toolbar .e-toolbar-items.e-tbar-pos {
+    background-color: #F3F5F9;
+    height: fit-content;
+    padding-bottom: 103px;
+}
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-tbar-btn.e-btn.e-tbtn-txt .e-icons.e-icon-right.e-btn-icon.e-icon-down-arrow {
+    display: none;
+}
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn.e-btn.e-tbtn-txt .e-icons.e-btn-icon {
+    display: none;
+}
+
+.e-toolbar-item .e-schedule-seperator .e-separator{
+    display: none;
+}
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item.e-separator{
+    display: none;
+}
+.e-toolbar .e-toolbar-items .e-toolbar-item:not(.e-separator){
+    min-width: 0;
+    padding: 8px 15px;
+}
+.e-toolbar .e-toolbar-items .e-toolbar-item:not(.e-separator):first-child{
+    display: none;
+}
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn.e-btn {
+    height: calc(100% - 10px);
+    margin: 4px 0;
+    min-height: 0;
+    min-width: 0;
+    background: #FFFFFF;
+}
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn.e-btn .e-icons.e-btn-icon {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03);
+    color: #C3CAD9;
+}
+.e-toolbar-item .e-prev .e-tbtn-align .e-overflow-show{
+    display: flex;
+}
+.e-toolbar .e-toolbar-items .e-toolbar-left .e-toolbar-item:first-child{
+    display: flex;
+}
+.e-schedule .e-schedule-toolbar .e-toolbar-items.e-tbar-pos>div{
+    display: flex;
+    align-items: center;
+}
+.e-toolbar-right{
+    padding: 0;
+    min-width: 34px;
+    background: #FFFFFF;
+    border: 3px solid #F5F6F7;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+}
+.e-toolbar-right div:not(:first-child){
+    border-right: 4px solid #F5F6F7;
+}
+.e-toolbar .e-toolbar-items:first-child>.e-toolbar-item:last-child, .e-toolbar .e-toolbar-items:first-child>.e-toolbar-right .e-toolbar-item:last-child{
+    border: none;
+}
+.e-schedule .e-schedule-toolbar .e-tbar-btn .e-tbar-btn-text{
+    all: initial;
+    background-color: #FFFFFF;
+    color: #84A5C9;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+.e-schedule .e-schedule-toolbar .e-active-view .e-tbar-btn-text, .e-schedule .e-schedule-toolbar .e-active-view .e-icons{
+    color: #195696;
+}
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn.e-btn{
+    border-radius: 50%;
+}
+.e-date-range{
+    background-color: transparent;
+    border: none;
+}
+.e-toolbar .e-toolbar-items .e-toolbar-item .e-tbar-btn.e-btn{
+    border-radius: 0;
+    background-color: transparent;
+}
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item.e-date-range .e-tbar-btn .e-tbar-btn-text{
+    color:#195696;
+    background-color: transparent;
+    position: absolute;
+    left: 415px;
+    width: 155px;
+    top: 23px;
+
+}
+.e-toolbar-left .e-next{
+    position: relative;
+    left: 30rem;
+}
+.e-toolbar-left .e-prev{
+    position: relative;
+    left: 20rem;
+}
+.today_date{
+    background: #FFFFFF;
+    border: 2px solid #F5F6F7;
+    box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03);
+    border-radius: 20px;
+    width: 73px;
+    height: 40px;
+    color: #6B7A99;
+    font-size: 12px;
+    font-weight: 800;
+    position: relative;
+    top: 57px;
+    z-index: 896;
+}
+.e-toolbar .e-toolbar-items.e-tbar-pos .e-toolbar-right{
+    right: 25rem;
+}
+.e-schedule .e-vertical-view .e-alternate-cells{
+    border-bottom: none;
+}
+.e-schedule .e-appointment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFE4E4 !important;
+    border: 1.5px solid #FF0000 !important;
+    border-radius: 14px !important;
+    height: 66px;
+    color: #FF0000 !important;
+    margin-inline: 8px ;
+    cursor: pointer !important;
+}
+.e-schedule .e-subject{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding-left: 15px !important;
+    text-transform: capitalize;
+}
+.e-time{
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    padding-left: 15px !important;
+    text-transform: capitalize;
+}
+.e-schedule .e-agenda-view .e-date-time {
+    color: rgba(0, 0, 0, .54);
+    font-size: 12px;
+    line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+}
+.app_icon{
+    z-index: 1;
+    position: absolute;
+    left: 31px;
+    top: 127px;
+}
+.e-toolbar-right{
+    display: none !important;
+}
+.e-toolbar-left .e-next {
+    position: relative;
+    left: 39rem;
+}
+.e-schedule .e-schedule-toolbar .e-toolbar-items .e-toolbar-item.e-date-range .e-tbar-btn .e-tbar-btn-text {
+    color: #195696;
+    background-color: transparent;
+    position: absolute;
+    left: 502px;
+    width: 155px;
+    top: 23px;
+}
+.e-toolbar-left .e-prev {
+    position: relative;
+    left: 24rem;
+}
+.e-header-calendar{
+        position: relative !important;
+        left: 18rem !important;
+    
+}

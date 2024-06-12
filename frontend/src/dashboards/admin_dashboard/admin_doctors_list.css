@@ -1,0 +1,164 @@
+.admin_doctors_dots{
+    position: absolute;
+    right: 42px;
+}
+.patient_appointments .patients_requests .patient_requests{
+    position: relative;
+}
+.admin_doctors_actions{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    right: 35px;
+    top: 46px;
+}
+.admin_doctors_actions button:first-child{
+    background-color: #EEEEEE;
+    border: none;
+    padding: 6px 12px 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555555;
+}
+.admin_doctors_actions button:last-child{
+    background-color: #195696;
+    border: none;
+    padding: 6px 12px 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+.admin_doctor_modal{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin_doctor_modal .sss{
+    padding: 20px 25px;
+    margin-left: 150px;
+    background-color: white;
+    position: absolute;
+    width: 550px;
+    height: fit-content;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.admin_doctor_modal .sss .fulln{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.admin_doctor_modal .sss .fulln .first_name,
+.admin_doctor_modal .sss .email
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.admin_doctor_modal .sss .fulln p,
+.admin_doctor_modal .sss .email p
+{
+    color: #7A7A7A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.admin_doctor_modal .sss .fulln input,
+.admin_doctor_modal .sss .email input
+{
+    background: #FFFFFF;
+    border: 0.3px solid #195696;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    height: 44px;
+    padding: 11px 18px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.admin_doctor_modal .sss .buttons{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.admin_doctor_modal .sss button[type="submit"]{
+    width: 97px;
+    height: 33px;
+    padding: 8px 21px 8px 21px;
+    border-radius: 14px;
+    background-color: #195696;
+    font-size: 14px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin_doctor_modal .sss button[type="reset"]{
+    width: 97px;
+    height: 33px;
+    padding: 8px 21px 8px 21px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    border: 1px solid #195696;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.patient_infos_admin{
+    position: absolute;
+    right: 64px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 9px;
+    background-color: #195696;
+    color: white;
+    border: none;
+    width: 119px;
+    height: 29px;
+}
+.dell{
+    position: absolute;
+    right: 30px;
+}
+.update_tt{
+    width: 70px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #195696;
+    position: absolute;
+    right: 64px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 9px;
+    color: black;
+    width: 119px;
+    height: 29px;
+}
+.delete_tt{
+    width: 70px;
+    height: 33px;
+    background: #195696;
+    border-radius: 14px;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    color: white;
+}
+
+

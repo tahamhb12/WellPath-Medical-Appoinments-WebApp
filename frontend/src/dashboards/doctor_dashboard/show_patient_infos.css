@@ -1,0 +1,252 @@
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss{
+    margin-top: 35px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh{
+    width: 806px;
+    height: 343px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 18px 21px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .up_past_apps_click{
+    background: #EEEEEE;
+    border-radius: 14px;
+    width: 373px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .up_past_apps_click button{
+    background: #195696;
+    border-radius: 14px;
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    border: none;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh{
+    background: #F3F5F9;
+    border-radius: 14px;
+    width: 755px;
+    margin-top: 25px;
+    overflow-y: scroll;
+    height: 238px;
+    scrollbar-width: thin;
+    scrollbar-color: #195696 white;
+    scroll-behavior: smooth;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh h2{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+    border-bottom: 0.1px solid #959595;
+    padding: 20px;
+}
+
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh .inside_graphh{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    position: relative;
+    height: 94px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh .inside_graphh .upcoming_past_app{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: 626px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh .inside_graphh .upcoming_past_app .upcoming_past_app_date{
+    font-size: 18px;
+    font-weight: 600;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh .inside_graphh .upcoming_past_app .upcoming_past_app_traitment p:first-child{
+    color: #959595;
+    font-size: 12px;
+    font-weight: 500;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh .inside_graphh .upcoming_past_app .upcoming_past_app_traitment p:last-child{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh .inside_graphh .upcoming_past_app .upcoming_past_app_doctor p{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh .inside_graphh .upcoming_past_app .upcoming_past_app_doctor_notes{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh .inside_graphh .upcoming_past_app .upcoming_past_app_doctor_notes h2{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+    border-bottom:0;
+    padding: 0;
+    color: #337EFB;
+    font-weight: 600;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh .inside_graphh .upcoming_past_app .line{
+    background-color:black ;
+    height: 65%;
+    width: 2px;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh .inside_graphh .shapes .colored_line{
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom, #a1cfff 0%, #195696 100%);
+    padding: 25px 0;
+    position: absolute;
+    top: 0;
+}
+.patient_appointments .patient_appointments_doctor_infos .sec_half_elementss .up_past_graphh .app_graphh .inside_graphh .shapes .colored_line::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #2CC589;
+    top: 45%;
+    left: -11px;
+}
+.patient_appointments .doctor_infos .notes{
+    display: flex;
+    flex-direction: column;
+    padding: 9px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: 315px;
+    height: 333px;
+    gap: 10px;
+}
+.patient_appointments .doctor_infos .notes h2{
+    font-size: 14px;
+    font-weight: 600;
+}
+.patient_appointments .doctor_infos .notes textarea{
+    background: #C9E3FF;
+    border: 1px solid #195696;
+    border-radius: 14px;
+    width: 283px;
+    height: 136px;
+    outline: none;
+    padding: 5px;
+}
+.patient_appointments .doctor_infos .notes .button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.patient_appointments .doctor_infos .notes .button button{
+    width: 83px;
+    height: 29px;
+    background: #195696;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.patient_appointments .doctor_infos .notes .mynotes{
+    width: 283px;
+    height: fit-content;
+    background: #E6EDFF;
+    border-radius: 14px;
+    padding: 4px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+/*     margin-top: 17px;
+ */}
+.patient_appointments .doctor_infos .notes .mynotes .note_infos p:first-child,
+.patient_appointments .doctor_infos .notes .mynotes .date p:first-child{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+.patient_appointments .doctor_infos .notes .mynotes .note_infos p:last-child{
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+.patient_appointments .pdfss{
+    padding: 20px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: 315px;
+    height: 333px;
+}
+.patient_appointments .pdfss .pdf_header{
+    display: flex;
+    justify-content: space-between;
+}
+.patient_appointments .pdfss .pdf_header_2{
+    display: flex;
+    gap: 10px;
+}
+.patient_appointments .pdfss .pdf_header_2 p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #337EFB;
+}
+.patient_appointments .pdfss h2{
+    font-weight: 600;
+    font-size: 14px;
+}
+.patient_appointments .pdfss .pdfs_files{
+    margin-top: 13px;
+    width: 283px;
+    height: 43px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.patient_appointments .pdfss .pdfs_files p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.app_graphh .notfound{ 
+    width: 100%;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}

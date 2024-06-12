@@ -1,0 +1,215 @@
+.patient_dash_interface .patient_dash_infos{
+    max-width: 1088px;
+    height: 191px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 21px 27px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.patient_dash_interface .patient_dash_infos .patient_infos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.patient_dash_interface .patient_dash_infos .patient_infos .date{
+    font-size: 16px;
+    font-weight: 400;
+    color: #195696;
+}
+.patient_dash_interface .patient_dash_infos .patient_image img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.patient_dash_interface .patient_dash_infos .patient_infos .patient_fullname p{
+    font-size: 32px;
+    font-weight: 900;
+    color: #195696;
+}
+.patient_dash_interface .patient_dash_infos .patient_infos .uhave_app{
+    font-size: 20px;
+    font-weight: 300;
+    color: #404040;
+}
+.patient_dash_interface .patient_dash_infos .patient_infos .uhave_app span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF0000;
+}
+
+.patient_dash_interface .next_patient_appointments {
+    max-width: 650px;
+    margin-top: 35px;
+    display: flex;
+    gap: 45px;
+    position: relative;
+}
+.patient_dash_interface .next_patient_appointments .types,.doctor_example .types{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    width: 728px;
+}
+.patient_dash_interface .next_patient_appointments .types h2,.doctor_example .types h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #7A7A7A;
+}
+.patient_dash_interface .next_patient_appointments .types p,.doctor_example .types p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #7A7A7A;
+    cursor: pointer;
+}
+.patient_dash_interface .next_patient_appointments .next_app {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.patient_dash_interface .next_patient_appointments .next_app .time{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.patient_dash_interface .next_patient_appointments .next_app .patient_appoin{
+    display: flex;
+    gap: 81px;
+    align-items: center;
+    justify-content: center;
+    width: 728px;
+    height: 62px;
+    padding: 16px 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    position: relative;
+}
+.patient_dash_interface .next_patient_appointments .next_app .patient_appoin::after{
+    content: "";
+    position: absolute;
+    background-color: #0C2D66;
+    height: 80%;
+    width: 15px;
+    border-radius: 0px 14px 14px 0px;
+    left: 0;
+}
+.patient_dash_interface .next_patient_appointments .next_app .patient_appoin .app_name{
+    font-size: 24px;
+    font-weight: 900;
+    color: #195696;
+    width: 236.23px;
+}
+.patient_dash_interface .next_patient_appointments .next_app .patient_appoin .ppp{
+    font-size: 13px;
+    font-weight: 600;
+    color: #195696;
+}
+.patient_dash_interface .next_patient_appointments .next_app .patient_appoin .apps_details{
+    font-size: 13px;
+    font-weight: 600;
+    color: #0C2D66;
+    cursor: pointer;
+}
+.no_apps_found {
+    text-align: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 600;
+    color: #7A7A7A;
+}
+.patient_dash_interface .doctor_example {
+    margin-top: 35px;
+}
+.patient_dash_interface .doctor_example .some_doctors{
+    display: flex;
+    gap: 25px;
+}
+.patient_dash_interface .doctor_example .some_doctors .a_doctor{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    padding: 13px 16px;
+    width: 164px;
+    height: fit-content;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.patient_dash_interface .doctor_example .some_doctors .a_doctor .img img{
+    width: 60px;
+    height: 60px;
+}
+.patient_dash_interface .doctor_example .some_doctors .a_doctor .img {
+    width: 60px;
+    height: 60px;
+    background-color: #195696;
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+.patient_dash_interface .doctor_example .some_doctors .a_doctor h3{
+    text-transform: capitalize;
+    color: #195696;
+    font-size: 16px;
+    font-weight: 600;
+    width: 168px;
+    text-align: center;
+}
+.patient_dash_interface .doctor_example .some_doctors .a_doctor p{
+    text-transform: capitalize;
+    color: #C1C1C1;
+    font-size: 12px;
+    font-weight: 300;
+}
+.patient_dash_interface .doctor_example .some_doctors .a_doctor button{
+    height: 27px;
+    height: 27px;
+    padding: 6px 5px;
+    background: #195696;
+    border-radius: 14px;
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.patient_dash_interface .next_patient_appointments .pdfs{
+    min-width: 315px;
+    height: 460px;
+    padding: 20px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    position: absolute;
+    right: -438px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.patient_dash_interface .next_patient_appointments .pdfs .pdf{
+    width: 283px;
+    height: 52px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.patient_dash_interface .next_patient_appointments .pdfs .pdf .result{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.patient_dash_interface .next_patient_appointments .pdfs .pdf .result p{
+    font-size: 12px;
+    font-weight: 600;
+}

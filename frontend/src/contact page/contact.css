@@ -1,0 +1,302 @@
+.contact{
+    padding-top: 150px;
+}
+.contact .contact_section1 .infoss{
+    text-align: center;
+}
+.contact .contact_section1 .infoss h3{
+    font-size: 48px;
+    font-weight: 900;
+    color: #195696;
+}
+.contact .contact_section1 .infoss .mm{
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    max-width: 538px;
+    margin-inline: auto;
+    margin-top: 33px;
+}
+.contact .contact_section1 .informations{
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    margin-left: -73px;
+}
+.contact_section1 .informations .book{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.contact_section1 .informations .whatsapp{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+}
+.contact_section1 .informations .whatsapp p{
+    color: #0C2D66;
+    font-size: 15px;
+    font-weight: 400;
+}
+.contact_section1 .form{
+    background-color: #eee;
+    display: flex;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.19);
+    border-radius: 34px;
+    max-width: 1116px;
+    height: 588px;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+.contact_section1 .form .infos{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-top-left-radius: 34px;
+    border-bottom-left-radius: 34px;
+}
+.contact_section1 .form .infos .title h3{
+    font-size: 48px;
+    font-weight: 900;
+    color: #195696;
+}
+.contact_section1 .form .infos .title p{
+    font-size: 20px;
+    color: black;
+}
+.contact_section1 .form .inputs{
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    align-self: center;
+    gap: 33px;
+    background-color: #195696;
+    padding: 35px 129px;
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+    color: white;
+}
+.contact_section1 .form .inputs h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}   
+.contact_section1 .form .inputs label{
+    font-size: 16px;
+    font-weight: 400;
+}   
+.contact_section1 .form .inputs .name_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.contact_section1 .form .inputs .name_inputs .inps{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.contact_section1 .form .inputs .name_inputs input{
+    padding: 9px 15px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    width: 193px;
+    height: 39px;
+    
+}
+.contact_section1 .form .inputs .email_inputs input{
+    padding: 9px 15px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    width: 100%;
+}
+.contact_section1 .form .inputs .subject_inputs input{
+    padding: 9px 15px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    width: 100%;
+}
+.contact_section1 .form .inputs .message_inputs input{
+    padding: 9px 15px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    width: 100%;
+    height: 103px;
+}
+.contact_section1 .form .inputs .submit{
+    color: #0C2D66;
+    font-size: 20px;
+    font-weight: 600;
+    width: fit-content;
+    margin: auto;
+    padding: 4px 35px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    border: none;
+}
+
+/* .contact_section3{
+    padding-top: 100px;
+} */
+.contact_section2 h3{
+    color: #FF0000;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.contact_section2 h1{
+    color: #195696;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contact_section3{
+    padding-top: 96px;
+}
+
+.contact_section3 .infos{
+    text-align: center;
+}
+.contact_section3 .infos p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.contact_section3 .infos h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: #195696;
+}
+.contact_section3 .animation{
+    background-color: #195696;
+    border-radius: 14px;
+    padding: 8px 20px;
+    color: white;
+    transition: 0.2s;
+    margin-top: 42px;
+}
+.contact_section3 .animation p{
+    margin-top: 5px;
+}
+.contact_section3 .animation h1{
+    font-size: 25px;
+    font-weight: 400;
+}
+.contact_section3 .animation:hover{
+    background-color: #eee;
+    color: #195696;
+}
+.contact_section3 .animation:hover h1{
+    color: #0C2D66;
+    font-weight: 500;
+}
+.contact_section3 .animation:hover p{
+    color: #0C2D66;
+}
+.contact_section3 .title_arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width:1062px) {
+    .contact_section1 .form {
+        background-color: #eee;
+        display: flex;
+        box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.19);
+        border-radius: 34px;
+        max-width: 1116px;
+        height: 588px;
+        margin-inline: auto;
+        margin-top: 50px;
+        flex-direction: column;
+        margin-bottom: 273px;
+    }
+    .contact_section1 .form .infos {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        border-radius: 0;
+        border-top-left-radius: 34px;
+        border-top-right-radius: 34px;
+        padding: 50px 0;
+        width:100%;
+    }
+    .contact_section1 .form .infos .title p {
+        font-size: 20px;
+        color: black;
+        text-align: center;
+    }
+    .contact_section1 .form .inputs {
+        display: flex;
+        flex-direction: column;
+        margin-inline: auto;
+        align-self: center;
+        gap: 33px;
+        background-color: #195696;
+        padding: 35px 129px;
+        border-radius: 0;
+        border-bottom-right-radius: 34px;
+        border-bottom-left-radius: 34px;
+        color: white;
+        width: 100%;
+    }
+    .contact .contact_section1 .informations {
+        display: flex;
+        flex-direction: row;
+        gap: 49px;
+        margin-left: 0;
+    }
+}
+@media (max-width:842px) {
+    .contact .contact_section1 .informations {
+        gap: 25px;
+    }
+}
+@media (max-width:808px) {
+    .contact .contact_section1 .form{
+        margin-bottom: 450px;
+    }
+    .contact .contact_section1 .informations {
+        gap: 35px;
+        flex-direction: column;
+    }
+}
+@media (max-width:690px) {
+    .contact_section1 .form .inputs .name_inputs .inps {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .contact_section1 .form .inputs .name_inputs input {
+        padding: 9px 15px;
+        background: #FFFFFF;
+        border-radius: 12px;
+        border: none;
+        width: 100%;
+        height: 39px;
+    }
+}
+@media (max-width:690px) {
+    .contact_section1 .form .inputs {
+        padding: 35px 55px;
+    }
+}
+@media (max-width:414px) {
+    .contact_section1 .form .inputs {
+        padding: 35px 25px;
+    }
+}

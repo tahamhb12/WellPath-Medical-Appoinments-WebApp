@@ -1,0 +1,449 @@
+.Doctor_appointment_interface .Doctor_appointment_interface {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.Doctor_appointment_interface .Doctor_appointment_interface_sec1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 22px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    color: #195696;
+    font-size: 14px;
+    font-weight: 900;
+    width: 111px;
+    height: 39px;
+}
+
+.Doctor_appointment_interface .modal_2-content .requests_map{
+    margin-top: 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.Doctor_appointment_interface .modal_2-content .request{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: 683px;
+    height: 56px;
+    padding: 9px 41px 9px 31px;
+}
+.Doctor_appointment_interface .modal_2-content .request p{
+    color: #195696;
+    font-size: 12px;
+    font-weight: 600;
+}
+.Doctor_appointment_interface .modal_2-content .request .request_name p:first-child{
+    color: #195696;
+    font-size: 12px;
+    font-weight: 900;
+}
+.Doctor_appointment_interface .modal_2-content .request .request_name p:nth-child(2){
+    color: #195696;
+    font-size: 9px;
+    font-weight: 500;
+}
+.Doctor_appointment_interface .modal_2-content .request .request_infos{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Doctor_appointment_interface .modal_2-content .request .request_infos .request_img img{
+    width: 38px;
+    height: 38px;
+}
+.Doctor_appointment_interface .modal_2-content .request .request_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Doctor_appointment_interface .modal_2-content .request .request_date .status{
+    background-color: #eee;
+    padding: 3px 20px;
+    border-radius: 14px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Doctor_appointment_interface .modal_2-content .requests_map .notes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.Doctor_appointment_interface .modal_2-content .request .request_buttons button:first-child{
+    width: 79px;
+    height: 31px;
+    padding: 7px 14px;
+    background: #195696;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+}
+.Doctor_appointment_interface .modal_2-content .request .request_buttons button:nth-child(2){
+    width: 101px;
+    height: 33px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    padding: 8px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #5B5B5B;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.Doctor_appointment_interface .new_date_input{
+    display: flex;
+    justify-content: center;
+}
+.Doctor_appointment_interface .confirm_new_date{
+    display: flex;
+    justify-content: center;
+}
+.Doctor_appointment_interface .confirm_new_date button{
+    background: #195696;
+    border-radius: 14px;
+    color: white;
+    padding: 11px 36px;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Doctor_appointment_interface .req_note{
+    margin-top: 20px;
+}
+.Doctor_appointment_interface .req_note1{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .doctors{
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+}
+.doctors .doctor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 358px;
+    height: 182px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    gap: 15px;
+}
+.docimg{
+    background-color: #195696;
+    border-radius: 50%;
+}
+.docimg img{
+    width: 123px;
+    height: 123px;
+    position: relative;
+    top: 5px;
+}
+.doctors .doctor .docinfos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.doctors .doctor .docinfos .doc_name{
+    color: #195696;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.doctors .doctor .docinfos .same{
+    font-size: 14px;
+    font-weight: 300;
+    color: #C1C1C1;
+    text-transform: capitalize;
+}
+.doctors .doctor .docinfos button{
+    background: #195696;
+    border-radius: 8px;
+    height: 28px;
+    border: none;
+    color: white;
+    width: 185px;
+} */
+.conttt{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    right: 0;
+    width: 89.5%;
+    height: 100%;
+    z-index: 900;
+}
+.modal_2{
+    opacity: 1;
+    background-color: #F3F5F9;
+    width: 55%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    top: 0;
+    display: flex;
+    padding: 25px 20px;
+    overflow-y: scroll;
+}
+.modal_2-content{
+    width: 100%;
+}
+.modal_2_header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+}
+.modal_2 .doc_infos .first_infos img{
+    width: 123px;
+    height: 123px;
+}
+.modal_2 .doc_infos .first_infos{
+    display: flex;
+    width: 288px;
+    height: 333px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px 35px;
+    gap: 14px;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background: #FFFFFF;
+}
+.modal_2 .doc_infos{
+    margin-top: 59px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.modal_2 .doc_infos .first_infos h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 400;
+}
+.modal_2 .doc_infos .first_infos p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.modal_2 .doc_infos .first_infos .text{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    width: 235px;
+}
+.modal_2 .doc_infos .second_infos {
+    padding: 36px 20px;
+    width: 466px;
+    height: 333px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+.modal_2 .doc_infos .second_infos .first_t,
+.modal_2 .doc_infos .second_infos .second_t
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.modal_2 .doc_infos .second_infos .third_t
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.modal_2 .doc_infos .second_infos .second_t,
+.modal_2 .doc_infos .second_infos .third_t
+{
+    margin-top: 42px;
+}
+.modal_2 .doc_infos .second_infos .first_t .gender,
+.modal_2 .doc_infos .second_infos .first_t .birthday,
+.modal_2 .doc_infos .second_infos .first_t .phone,
+
+.modal_2 .doc_infos .second_infos .second_t .gender,
+.modal_2 .doc_infos .second_infos .second_t .birthday,
+.modal_2 .doc_infos .second_infos .second_t .phone,
+
+.modal_2 .doc_infos .second_infos .third_t .gender,
+.modal_2 .doc_infos .second_infos .third_t .birthday
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    border-bottom: 2px solid;
+    padding-bottom: 8px;
+    width: 150px;
+}
+
+.modal_2 .doc_infos .second_infos .first_t .first,
+.modal_2 .doc_infos .second_infos .second_t .first,
+.modal_2 .doc_infos .second_infos .third_t .first
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #959595;
+}
+.modal_2 .doc_infos .second_infos .first_t .second,
+.modal_2 .doc_infos .second_infos .second_t .second,
+.modal_2 .doc_infos .second_infos .third_t .second
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+/* .doctors_sec .filtersec{
+    display: flex;
+    gap: 4px;
+    width: 449px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #F5F6F7;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin-bottom: 70px;
+}
+.doctors_sec p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 900;
+    color: #195696;
+    cursor: pointer;
+}
+.doctors_sec p:first-child{
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.doctors_sec p:last-child{
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.doctors_sec .modal_2 .calendar_book{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.doctors_sec .modal_2 .cal_button{
+    background: #195696;
+    border-radius: 14px;
+    width: 252px;
+    height: 50px;    
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.doctors_sec .modal_2 .calendar_button{
+    display: flex;
+    justify-content: center;
+}
+.arrowdd{
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    background-color: rgb(184, 180, 180);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.requests_modal{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: 111px;
+    padding: 0px 22px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #195696;
+    font-size: 14px;
+    font-weight: 800;
+    position: relative;
+    top: 5rem;
+    cursor: pointer;
+    z-index: 9;
+    position: relative;
+    top: -61px;
+}
+
+.patients_search_bar::placeholder{
+    font-weight: 900;
+    font-size: 15px;
+    color: #7F7F7F;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    left: 77px;
+}
+.patients_search_bar{
+    width: 210px;
+    height: 36px;
+    border: 1px solid #C8C8C8;
+    border-radius: 14px;
+    background-color: transparent;
+    z-index:9;
+    padding: 0 9px;
+}
+.noo_req{
+    font-size: 21px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 77px;
+}

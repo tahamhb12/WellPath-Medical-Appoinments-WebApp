@@ -1,0 +1,215 @@
+.about_us{
+    padding-top: 100px;
+}
+.about_us_section1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.about_us_section1 .infos{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+.about_us_section1 .infos h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #195696;
+}
+.about_us_section1 .infos .first{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+.about_us_section1 .infos .second{
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+}
+.about_us_section1 .infos .second span{
+    font-size: 20px;
+    font-weight: 800;
+    color: #0C2D66;
+}
+
+.about_us_section2{
+    padding-top: 96px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.about_us_section2 .Our_mission,.about_us_section2 .Our_vision{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+.about_us_section2 .Our_mission .infos p,
+.about_us_section2 .Our_vision .infos p{
+    color: #FF0000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.about_us_section2 .Our_mission .infos h2,
+.about_us_section2 .Our_vision .infos h2{
+    color: #195696;
+    font-size: 40px;
+    font-weight: 500;
+}
+.about_us_section2 .Our_mission .card ,
+.about_us_section2 .Our_vision .card {
+    background: #F9FAFB;
+    border-radius: 34px;
+    filter: drop-shadow(5px 8px 15px rgba(0, 0, 0, 0.19));
+    padding: 26px 28px;
+    max-width: 482px;
+    color: #195696;
+    font-weight: 200;
+    font-size: 14px;
+}
+.about_us_section2 .Our_mission .card span ,
+.about_us_section2 .Our_vision .card span{
+    color: black;
+    font-size: 14px;
+    font-weight: 800;
+}
+.about_us_section3{
+    margin-top: 96px;
+}
+
+.about_us_section3 .infos{
+    text-align: center;
+}
+.about_us_section3 .infos p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.about_us_section3 .infos h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: #195696;
+}
+.about_us_section3 .animation{
+    background-color: #195696;
+    border-radius: 14px;
+    padding: 8px 20px;
+    color: white;
+    transition: 0.2s;
+    margin-top: 42px;
+}
+.about_us_section3 .animation p{
+    margin-top: 5px;
+}
+.about_us_section3 .animation h1{
+    font-size: 25px;
+    font-weight: 400;
+}
+.about_us_section3 .animation:hover{
+    background-color: #eee;
+    color: #195696;
+}
+.about_us_section3 .animation:hover h1{
+    color: #0C2D66;
+    font-weight: 500;
+}
+.about_us_section3 .animation:hover p{
+    color: #0C2D66;
+    font-size: 20px;
+}
+.about_us_section3 .title_arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_us_section4 {
+    padding-top: 96px;
+}
+.about_us_section4 .pp{
+    color: #FF0000;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.about_us_section4 .hh{
+    font-size: 24px;
+    font-weight: 500;
+    color: #195696;
+    text-align: center;
+}
+.about_us_section4 .cards{
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    flex-wrap: wrap;
+    margin-top: 39px;
+}
+.about_us_section4 .cards .card1{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.19);
+    border-radius: 14px;
+    background: #F9FAFB;
+    width: fit-content;
+    padding: 10px 16px;
+    width: 335px;
+    height: 126px;
+    overflow: hidden;
+}
+.about_us_section4 .cards .card1 .first{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.about_us_section4 .cards .card1 .first p{
+    font-size: 20px;
+    font-weight: 800;
+    color: #195696;
+}
+
+
+
+
+
+@media (max-width:1235px) {
+    .about_us_section1 .img img{
+        width: 500px;
+    }
+}
+@media (max-width:1008px) {
+    .about_us_section1 .infos{
+        width: 100%;
+    }
+    .about_us_section1 .img{
+        width: fit-content;
+        margin: auto;
+    }
+    .about_us_section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+        text-align: center;
+    }
+    .about_us_section1 .infos h1{
+        font-size: 64px;
+    }
+}
+@media (max-width:734px) {
+    .about_us_section1 .img img{
+        width: 500px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:518px) {
+    .about_us_section1 .img img{
+        width: 350px;
+    }
+    .about_us_section1 .infos h1{
+        font-size: 50px;
+    }
+
+}

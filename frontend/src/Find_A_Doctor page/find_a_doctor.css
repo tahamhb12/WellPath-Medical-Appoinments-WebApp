@@ -1,0 +1,217 @@
+.find_a_doctor{
+    padding-top: 100px;
+}
+.find_a_doctor .find_a_doctor_section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+}
+.find_a_doctor .find_a_doctor_section1 h3{
+    font-weight: 800;
+    font-size: 99px;
+    color: #195696;
+}
+.find_a_doctor .find_a_doctor_section1 span{
+    font-weight: 100;
+    font-size: 99px;
+    color: #195696;
+}
+.find_a_doctor .line {
+    background-color: #195696;
+    height: 100%;
+    width: 2px;
+}
+.find_a_doctor .consultation_check_div{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 822px;
+    height: 124px;
+    border-radius: 24px;
+    background-color: white;
+    box-shadow: 0px 4px 27.6px rgba(0, 0, 0, 0.25);
+    padding: 34px 18px;
+    margin-top: 60px;
+}
+.find_a_doctor .consultation_check_div .choose_service{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+.find_a_doctor .consultation_check_div .choose_service p{
+    color: #AAAAAA;
+    font-weight: 300;
+    font-size: 15px;
+}
+.find_a_doctor .consultation_check_div .choose_service label{
+    color: #0C2D66;
+    font-weight: 700;
+    font-size: 20px;
+}
+.find_a_doctor .consultation_check_div .choose_service select{
+    border: none;
+    color: #195696;
+}
+
+.find_a_doctor .consultation_check_div .date{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+.find_a_doctor .consultation_check_div .date p{
+    font-weight: 300;
+    font-size: 15px;
+    color: #AAAAAA;
+}
+.find_a_doctor .consultation_check_div .date input{
+    color: #0C2D66;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+}
+.find_a_doctor .consultation_check_div .search_button a{
+    border-radius: 15px;
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+    width: 182px;
+    height: 49px;
+    background-color: #195696;
+    border: none;
+    text-decoration: none;
+    padding:9px 20px;
+}
+.find_a_doctor .later_doctors{
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+    margin-inline: auto;
+}
+.find_a_doctor .later_doctors img{
+    width: 192px;
+    height: 288px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #195696 100%);
+    width: 100%;
+    padding: 0 22px;
+    position: relative;
+    left: 0px;
+    bottom: -26px;
+    border-top-right-radius: 34px;
+    border-top-left-radius: 34px;
+}
+.find_a_doctor .later_doctors .infffss{
+    background: rgba(12, 45, 102, 0.06);
+    backdrop-filter: blur(38.9px);
+    border-radius: 0px 0px 34px 34px;
+    width: 244px;
+    height: 78px;
+    z-index: 90;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.find_a_doctor .later_doctors .infffss h2{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+.find_a_doctor .later_doctors .infffss p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+@media (max-width:842px) {
+    .find_a_doctor .consultation_check_div {
+        width: fit-content;
+        height: fit-content;
+        flex-direction: column;
+        gap: 17px;
+    }
+    .find_a_doctor .consultation_check_div .line{
+        width: 30%;
+        height: 2px;
+    }
+}
+@media (max-width:1618px) {
+    .find_a_doctor .find_a_doctor_section1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+}
+@media (max-width:1204px) {
+    .find_a_doctor .find_a_doctor_section1 h3 {
+        width: 37%;
+    }
+    .find_a_doctor .find_a_doctor_section1 h3 {
+        font-size: 77px;
+        color: #195696;
+        font-weight: bold;
+    }
+    .find_a_doctor .find_a_doctor_section1  img{
+        width: 700px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:1235px) {
+    .find_a_doctor .find_a_doctor_section1  img{
+        width: 500px;
+    }
+}
+@media (max-width:1008px) {
+    .find_a_doctor .find_a_doctor_section1 h3{
+        width: 100%;
+    }
+    .find_a_doctor .find_a_doctor_section1 {
+        width: fit-content;
+        margin: auto;
+    }
+    .find_a_doctor .find_a_doctor_section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+        text-align: center;
+    }
+    .find_a_doctor .find_a_doctor_section1 h3 {
+        font-size: 64px;
+    }
+    .find_a_doctor .find_a_doctor_section1 h3{
+        margin: auto;
+    }
+    .find_a_doctor .find_a_doctor_section1 img{
+        margin: auto;
+        margin-top: 50px;
+
+    }
+}
+@media (max-width:734px) {
+    .find_a_doctor .find_a_doctor_section1  img{
+        width: 500px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:518px) {
+    .find_a_doctor .find_a_doctor_section1  img{
+        width: 350px;
+    }
+    .find_a_doctor .find_a_doctor_section1 h3 {
+        font-size: 50px;
+    }
+
+}

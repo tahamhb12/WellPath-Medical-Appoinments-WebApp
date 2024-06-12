@@ -1,0 +1,97 @@
+.dashboard_sidebar {
+    padding-top: 50px;
+    width: 203px;;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    box-shadow: 0px 4px 23.7px rgba(0, 0, 0, 0.25);
+    top: 0;
+    z-index: 1000;
+}
+.dashboard_sidebar .dashboard_navbar_logo{
+    display: flex;
+    align-items: center;
+}
+.dashboard_sidebar .dashboard_navbar_logo h2{
+    font-size: 16px;
+    font-weight: 900;
+    color: #195696;
+}
+.dashboard_sidebar .dashboard_navbar_links{
+    height: 100%;
+}
+.dashboard_sidebar .dashboard_navbar_links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.dashboard_sidebar .dashboard_navbar_links li {
+    list-style: none;
+    background-color: #195696;
+    padding: 0 36px;
+    height: 54px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 14px;
+    width: 12.7rem;
+    cursor: pointer;
+}
+.dashboard_sidebar .dashboard_navbar_links li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+.dashboard_sidebar .profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 15px 0;
+    border-top: #195696 solid 1px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.dashboard_sidebar .profile .profile_img img{
+    width: 37px;
+    height: 37px;
+}
+.dashboard_sidebar .profile .profile_infos .profile_name{
+    font-weight: 900;
+    font-size: 15px;
+    color: #195696;
+    text-transform: capitalize;
+    width: 150px;
+}
+.dashboard_sidebar .profile .profile_infos .profile_role{
+    font-weight: 300;
+    font-size: 10px;
+    color: #195696;
+    text-transform: capitalize;
+}
+.dashboard_sidebar .profile .logoutsec{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -53px;
+    width: 193px;
+    height: 44px;
+    border: 2px solid #195696;
+    border-radius: 8px;
+}
+.dashboard_sidebar .profile .logoutsec button{
+    background-color: transparent;
+    border: none;
+    color: #195696;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 8px;
+}

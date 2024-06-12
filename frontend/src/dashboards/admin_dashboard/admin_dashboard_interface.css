@@ -1,0 +1,221 @@
+.Admin_dash_interface{
+    display: flex;
+}
+.Admin_dash_interface .users_numbers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 637px;
+    gap: 15px;
+    height: fit-content;
+}
+.Admin_dash_interface .users_numbers .doctors_number{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    width: 259px;
+    height: 191px;
+    justify-content: center;
+    background: #F9FAFB;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.19);
+    border-radius: 17px;
+    position: relative;
+}
+.Admin_dash_interface .users_numbers .doctors_number::before{
+    content: "";
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 17px;
+    background-color: #195696;
+}
+.Admin_dash_interface .users_numbers .doctors_number:nth-child(2):before{
+    content: "";
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 17px;
+    background-color: #D9D9D9;
+}
+.Admin_dash_interface .users_numbers .doctors_number:nth-child(3):before{
+    content: "";
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 17px;
+    background-color: #D9D9D9;
+}
+.Admin_dash_interface .users_numbers .doctors_number:last-child:before{
+    content: "";
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    border-radius: 17px;
+    background-color: 195696;
+}
+.Admin_dash_interface .users_numbers .doctors_number .img img{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+}
+.Admin_dash_interface .users_numbers .doctors_number .inf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+
+}
+.Admin_dash_interface .users_numbers .doctors_number .inf p{
+    font-size: 25px;
+    font-weight: 900;
+    color: #195696;
+}
+.Admin_dash_interface .users_numbers .doctors_number .inf h2{
+    font-size: 25px;
+    font-weight: 900;
+    color: #195696;
+    text-align: center;
+}
+.Admin_dash_interface .line{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background-color: #195696;
+    margin-top: 15px;
+}
+.Admin_dash_interface .todays_sessions{
+    margin-top: 30px;
+    width: fit-content;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    height: fit-content;
+    padding: 20px 15px;
+}
+
+
+.Admin_dash_interface {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.Admin_dash_interface .admin_dashboard_infos{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.Admin_dash_interface .admin_dash_infos{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: 447px;
+    height: 191px;
+    padding: 21px 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Admin_dash_interface .admin_dash_infos p:first-child{
+    color: #195696;
+    font-size: 16px;
+    font-weight: 300;
+}
+.Admin_dash_interface .admin_dash_infos p:last-child{
+    color: #195696;
+    font-size: 20px;
+    font-weight: 200;
+}
+.Admin_dash_interface .admin_dash_infos p:last-child span{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Admin_dash_interface .admin_dash_infos .admin_name h2{
+    color: #195696;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.Admin_dash_interface .admin_some_doctors{
+    display: flex;
+    align-items: center;
+    gap: 81px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: 1004px;
+    height: 62px;
+    padding: 16px 0px;
+    position: relative;
+}
+.Admin_dash_interface .admin_some_doctors::before{
+    content: "";
+    background-color: #0C2D66;
+    position: absolute;
+    height: 41px;
+    width: 9px;
+    border-radius: 0px 14px 14px 0px;
+}
+.Admin_dash_interface .admin_docc{
+    display: flex;
+    justify-content: space-between;
+    width: 1004px;
+    align-items: center;
+}
+.Admin_dash_interface .admin_docc h2{
+    color: #7A7A7A;
+    font-weight: 600;
+    font-size: 24px;
+}
+.Admin_dash_interface .admin_docc p{
+    color: #7A7A7A;
+    font-weight: 600;
+    font-size: 12px;
+}
+.Admin_dash_interface .admin_some_doctors .doctor_name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.Admin_dash_interface .admin_some_doctors .doctor_name h3{
+    font-size: 24px;
+    font-weight: 900;
+    color: #195696;
+    text-transform: capitalize;
+    width: 250px;
+}
+.Admin_dash_interface .admin_some_doctors .doctor_name p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #676767;
+    text-transform: capitalize;
+}
+.Admin_dash_interface .admin_some_doctors .register_date {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.Admin_dash_interface .admin_some_doctors .register_date p{
+    color: #195696;
+    font-size: 13px;
+    font-weight: 600;
+}
+.Admin_dash_interface .admin_some_doctors button {
+    background-color: transparent;
+    border: none;
+    color: #0C2D66;
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    right: 50px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}

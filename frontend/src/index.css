@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+button,input[type="submit"]{
+    cursor: pointer;
+}
+
+.image img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 72%;
+    border-radius: 8%;
+}
+
+
+.App{
+    padding: 0 300px;
+}
+@media (max-width:1618px) {
+    .App{
+        padding: 0 200px;
+    }
+}
+@media (max-width:1558px) {
+    .App{
+        padding: 0 200px;
+    }
+}
+@media (max-width:1445px) {
+    .App{
+        padding: 0 150px;
+    }
+}
+@media (max-width:1346px) {
+    .App{
+        padding: 0 100px;
+    }
+}
+@media (max-width:1220px) {
+    .App{
+        padding: 0 10px;
+    }
+    .image img{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 70%;
+    }
+}
+@media (max-width:1008px) {
+    .image img{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 110%;
+    }
+}

@@ -1,0 +1,258 @@
+.doctors{
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+}
+.doctors .doctor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 182px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    gap: 15px;
+    padding: 15px 15px;
+}
+.docimg{
+    background-color: #195696;
+    border-radius: 50%;
+}
+.docimg img{
+    width: 123px;
+    height: 123px;
+    position: relative;
+    top: 5px;
+}
+.doctors .doctor .docinfos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.doctors_not_found{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.doctors .doctor .docinfos .doc_name{
+    color: #195696;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    justify-content: flex-start;
+}
+.doctors .doctor .docinfos .same{
+    font-size: 14px;
+    font-weight: 300;
+    color: #C1C1C1;
+    display: flex;
+    justify-content: flex-start;
+    text-transform: capitalize;
+}
+.doctors .doctor .docinfos button{
+    background: #195696;
+    border-radius: 8px;
+    height: 28px;
+    border: none;
+    color: white;
+    width: 185px;
+}
+.conttt{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    right: 0;
+    width: 89.5%;
+    height: 100%;
+}
+.modal{
+    opacity: 1;
+    background-color: #F3F5F9;
+    width: 68%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    top: 0;
+    display: flex;
+    padding: 25px 20px;
+    overflow-y: scroll;
+}
+.modal-content{
+    width: 100%;
+}
+.modal_header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+}
+.modal .doc_infos .first_infos img{
+    width: 123px;
+    height: 123px;
+}
+.modal .doc_infos .first_infos{
+    display: flex;
+    width: 288px;
+    height: 333px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px 35px;
+    gap: 14px;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background: #FFFFFF;
+}
+.modal .doc_infos{
+    margin-top: 59px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.modal .doc_infos .first_infos h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 400;
+    width: 267px;
+    text-align: center;
+}
+.modal .doc_infos .first_infos p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.modal .doc_infos .first_infos .text{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    width: 235px;
+}
+.modal .doc_infos .second_infos {
+    padding: 36px 20px;
+    width: 466px;
+    height: 333px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+.modal .doc_infos .second_infos .first_t,
+.modal .doc_infos .second_infos .second_t
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.modal .doc_infos .second_infos .third_t
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.modal .doc_infos .second_infos .second_t,
+.modal .doc_infos .second_infos .third_t
+{
+    margin-top: 42px;
+}
+.modal .doc_infos .second_infos .first_t .gender,
+.modal .doc_infos .second_infos .first_t .birthday,
+.modal .doc_infos .second_infos .first_t .phone,
+
+.modal .doc_infos .second_infos .second_t .gender,
+.modal .doc_infos .second_infos .second_t .birthday,
+.modal .doc_infos .second_infos .second_t .phone,
+
+.modal .doc_infos .second_infos .third_t .gender,
+.modal .doc_infos .second_infos .third_t .birthday
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    border-bottom: 2px solid;
+    padding-bottom: 8px;
+    width: 150px;
+}
+
+.modal .doc_infos .second_infos .first_t .first,
+.modal .doc_infos .second_infos .second_t .first,
+.modal .doc_infos .second_infos .third_t .first
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #959595;
+}
+.modal .doc_infos .second_infos .first_t .second,
+.modal .doc_infos .second_infos .second_t .second,
+.modal .doc_infos .second_infos .third_t .second
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.doctors_sec .filtersec{
+    display: flex;
+    gap: 4px;
+    width: fit-content;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #F5F6F7;
+    box-shadow: 0px 4px 23.7px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin-bottom: 70px;
+}
+.doctors_sec p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 900;
+    color: #195696;
+    cursor: pointer;
+}
+.doctors_sec p:first-child{
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.doctors_sec p:last-child{
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.doctors_sec .modal .calendar_book{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.doctors_sec .modal .cal_button{
+    background: #195696;
+    border-radius: 14px;
+    width: 252px;
+    height: 50px;    
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.doctors_sec .modal .calendar_button{
+    display: flex;
+    justify-content: center;
+}
+.arrowdd{
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    background-color: rgb(184, 180, 180);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
