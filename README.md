@@ -39,4 +39,4 @@ This was my **second full-stack project**, built using **React**, **Laravel**, a
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/doctor-appointment-system.git
+   git clone https://github.com/tahamhb12/WellPath-Medical-Appoinments-WebApp.git
